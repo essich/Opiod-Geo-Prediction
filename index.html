@@ -12,6 +12,18 @@
     integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
 
+    <!-- Bring in Leaflet & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+    
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet">
+
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -20,13 +32,30 @@
 
   </head>
   <body>
-
     <!-- map div -->
-    <div id="map"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <center>Predicted:</center>
+        </div>
+        <div class="col-md-6">
+          <center>Actual:</center>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div id="map1"></div>
+        </div>
+        
+        <div class="col-md-6">
+          <div id="map2"></div>
+        </div>
+      </div>
+    </div>
     <!-- API key -->
     <script type="text/javascript" src="js/config.js"></script>
     <!-- JS  -->
     <script type="text/javascript" src="js/logic.js"></script> 
-
   </body>
 </html>

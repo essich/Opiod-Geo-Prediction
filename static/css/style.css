@@ -1,10 +1,10 @@
 body {
-  padding: 0;
-  margin: 0;
+  padding: 5;
+  margin: 5;
 }
 
-#map,
-body,
-html {
-  height: 100%;
+#map1,
+#map2 {
+  height: 600px;
+  width: 550px;
 }
