@@ -24,7 +24,6 @@ body {
   }
 
 
-
  #map1 {
   width: 100%;
   height: 750px;
@@ -47,9 +46,8 @@ body {
   display: inline-block;
   font-size: 20px;
   position: absolute;
- bottom: 10px;
- left: 33px;
-
+  bottom:10px;
+  left:33px;
 
 }
 
@@ -85,8 +83,12 @@ p.card-text{
 
 .content-container{
   padding-bottom: 30px;
+  
 }
 
+.card-body {
+  height: 600px;
+}
 body{
   background-color: rgba(59, 78, 92, 0.694);
 }
@@ -143,11 +145,13 @@ body{
 }
 .img-container-card-1{
   text-align: center;
+  
 }
 
 .card-body{
   padding-bottom: 1em;
-
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .card-text{
@@ -194,5 +198,6 @@ body{
   }
   .card-img-container-2{
       padding-top: 2em;
+     
   }
 }
