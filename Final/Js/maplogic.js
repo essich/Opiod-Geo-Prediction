@@ -116,7 +116,7 @@ function buildTable(data, json, countyCode, year) {
       dataArray[3].Value = data[i].crime_violent.toFixed(2);
       dataArray[4].Value = data[i].crime_property.toFixed(2);
       dataArray[5].Value = data[i].crime_theft.toFixed(2);
-      dataArray[6].Value = data[i].under_18_poverty.toFixed(2);
+      dataArray[6].Value = data[i].under_18_poverty.toFixed(2) + "%";
       dataArray[7].Value = year;
     }
   }
