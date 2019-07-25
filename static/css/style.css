@@ -1,0 +1,10 @@
+body {
+  padding: 5;
+  margin: 5;
+}
+
+#map1 {
+  height: 500px;
+  width: 500px;
+  align-items: stretch;
+}
